@@ -53,18 +53,6 @@ def nearest_nearest_settlementGet(payload_nearest_settlement):
 
     print(f"В радиусе {payload_nearest_settlement['distance']}км (от Б15) Ближайший город:{name_settlement}, на расстоянии: {round(distance,4)}км")
 
-    '''for i in range(number_station):
-
-        station_type_name = r_dict['stations'][i]['station_type_name']
-        title = r_dict['stations'][i]['title']
-        distance = round(r_dict['stations'][i]['distance'],4)
-
-        print(f'{i+1}. Тип транспорта: {transport_type},\t'
-              f'название: {station_type_name},\t'
-              f'название станции: "{title}",\t'
-              f'находится на расстоянии {distance}км от Б15')
-    '''
-
 def searchGet(payload_search):
     # Расписание рейсов между станциями
     print('------------------------------')
