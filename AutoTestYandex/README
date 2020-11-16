@@ -1,0 +1,4 @@
+Для запуска программы требуется установить Python 3.5 или выше
+Установить Selenium: 
+  pip install selenium
+Скачать и скопировать в папку к Chrome драйвер https://chromedriver.chromium.org/downloads
